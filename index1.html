@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box html</title>
+    <style>
+
+        #seccion1 {
+            font-size: 20px;
+            background-color: #90ae90;
+            width:100%;
+            height:100%;
+            display:grid;
+            grid-template-columns: repeat(auto-fill,minmax(80px , 1fr));
+            grid-template-rows: repeat(2, minmax(50px,100px));
+            grid-gap:5px 10px;  
+        }
+
+        #seccion2{
+            background-color: #90ae90;
+            font-size: 20px;
+            display: grid;
+            grid-template-columns: repeat(6, 50px);
+            gap: 10px 10px;
+            grid-template-columns: repeat(auto-fit , minmax(100px , 1fr));
+        }
+
+
+        #uno{
+            background: linear-gradient(50deg ,yellow, green, blue);
+        }
+        #dos{
+           
+            background-color: #a47070;
+            
+        }
+        #tres{
+          
+            background-color: #7e81df;
+          
+        }
+        #cuatro{
+           
+            background-color: #77c8cd;
+          
+        }
+        #cinco{
+      
+            background-color: #b5b864;
+    
+        }
+        #seis{
+           
+            background-color: #c16f6f;
+            
+        }
+        #siete{
+            background-color: aquamarine;
+        }
+        #ocho{
+            background-color: azure;
+        }
+        #nueve{
+            background-color: bisque;
+        }
+        #diez{
+            background-color: burlywood;
+        }
+        #once{
+            background-color: darkgreen;
+        }
+        #doce{
+            background-color: darkred;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="seccion1">
+        <div id="uno">1</div>
+        <div id="dos">2</div>
+        <div id="tres">3</div>
+        <div id="cuatro">4</div>
+        <div id="cinco">5</div>
+        <div id="seis">6</div>
+    </section>
+    <section id = "seccion2">
+        <div id="siete">7</div>
+        <div id="ocho">8</div>
+        <div id="nueve">9</div>
+        <div id="diez">10</div>
+        <div id="once">11</div>
+        <div id="doce">12</div>
+    </section>
+</body>
+</html>
